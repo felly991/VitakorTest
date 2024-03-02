@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;800&family=Montserrat:wght@300;400;700&display=swap');
+
+:root {
+  --index: calc(1vw + 1vh);
+  --text: #423D3D;
+  --bg: #293241;
+  --card_bg: #E0E1DD;
+  --btn: #FFB800;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+body {
+  min-width: 320px;
+  margin: 0 auto;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: var(--bg);
+  color: #000;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 50px 30px;
+  margin: 0 auto;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+.title {
+  color: var(--card_bg);
+  font-family: Montserrat;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  padding: 10px 50px;
+  justify-content: space-between;
+}
+
+.header__logo {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.header__authorization-btn {
+  background-color: rgb(124, 18, 18);
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: #fff;
+  transition: color .3s ease-in-out, background-color .3s ease-in-out;
+}
+
+.header__authorization-btn:focus {
+  background-color: rgb(152, 45, 45)
+}
+
+.header__authorization-btn:hover {
+  background-color: rgb(152, 45, 45)
+}
+
+.header__authorization-btn:active {
+  background-color: rgb(105, 29, 29)
+}
+
+/* Lots */
+
+.lots__list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.lots__item {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--card_bg);
+  color: var(--text);
+  border-radius: 10px;
+}
+
+.lots__item--disable {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--card_bg);
+  color: var(--text);
+  border-radius: 10px;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.lots__img {
+  background-image: url('assets/img/mandarin.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-width: 300px;
+  height: 230px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-position: center;
+}
+
+.lots__descr {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  padding-bottom: 10px;
+}
+
+.lots__name {
+  align-self: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.lots__id {
+  font-size: 24px;
+}
+
+.lots__startBet-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.lots__currentBet-section--active {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.lots__currentBet-section--disable {
+  display: none
+}
+
+.lots__startBet {
+  font-size: 16px;
+}
+
+.lots__number {
+  margin-right: 5px;
+}
+
+.lots__currentBet {
+  margin-right: 8px;
+}
+
+.lots__bet-input {
+  margin-right: 8px;
+}
+
+.lots__btn {
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: var(--btn);
+  color: var(--text);
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.lots__btn--disable {
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: grey;
+  color: #fff;
+  pointer-events: none;
+}
+
+.lots__btn:focus {
+  background-color: #f8c136;
+}
+
+.lots__btn:hover {
+  background-color: #f9cd5d;
+  color: #000;
+}
+
+.lots__btn:active {
+  background-color: #d29700;
+  color: #fff8f8;
+}
+
+/* authorization */
+
+.authorization__btns-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login__btn {
+  margin-right: 30px;
+}
+
+.userInfo {
+  font-size: 20px;
+  color: #fff
+}
