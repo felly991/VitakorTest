@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using VatakorTestCaseAPI.Data;
 using VatakorTestCaseAPI.Interface;
+using VatakorTestCaseAPI.Models;
 using VitakorTestCaseAPI.DTOs;
 
 namespace VatakorTestCaseAPI.Service
@@ -20,8 +21,11 @@ namespace VatakorTestCaseAPI.Service
         /// <returns></returns>
         public async Task<string> Message(BetModel betModel)
         {
-            var user = await _context.Bets.Include(u => u.Users)
-                .FirstOrDefaultAsync(x => x.Lotid == betModel.Lotid);
+            var maxBet = _context.Bets
+                .Where(x => x.Lotid == betModel.Lotid).Select(x => x.Salary).Max();
+            var user = await _context.Bets.Include(u => u.Users).Include(l => l.Lot)
+                .Where(x => x.Lotid == betModel.Lotid)
+                .FirstOrDefaultAsync(x => x.Lot.StartBet == maxBet);
             if (user == null)
             {
                 return "nothing";

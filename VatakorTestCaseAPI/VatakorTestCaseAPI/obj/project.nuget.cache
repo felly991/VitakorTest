@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kgW2FTaQNCewRstgU2vrdiVCkWW4h0M6fTwG4yHfim4qA9P8MH5D9HRdS++LGGqlfxmrvCW41fb4ah+AISQd0g==",
+  "dgSpecHash": "onVkOK7ghzELvWCjCbzS5j/MTKvTJ6dlXddNoWGypZxn77CPGZt8cRKOPCVJ35tlvtOZ3cD9DIKtoj2/4iVfJg==",
   "success": true,
-  "projectFilePath": "C:\\VitakorTestCase\\VatakorTestCaseAPI\\VatakorTestCaseAPI\\VatakorTestCaseAPI.csproj",
+  "projectFilePath": "C:\\Users\\Данила\\Desktop\\Tests\\VitakorTestCase\\VatakorTestCaseAPI\\VatakorTestCaseAPI\\VatakorTestCaseAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Данила\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Данила\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

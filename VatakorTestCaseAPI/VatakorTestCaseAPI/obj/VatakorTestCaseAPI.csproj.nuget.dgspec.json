@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VitakorTestCase\\VatakorTestCaseAPI\\VatakorTestCaseAPI\\VatakorTestCaseAPI.csproj": {}
+    "C:\\Users\\Данила\\Desktop\\Tests\\VitakorTestCase\\VatakorTestCaseAPI\\VatakorTestCaseAPI\\VatakorTestCaseAPI.csproj": {}
   },
   "projects": {
-    "C:\\VitakorTestCase\\VatakorTestCaseAPI\\VatakorTestCaseAPI\\VatakorTestCaseAPI.csproj": {
+    "C:\\Users\\Данила\\Desktop\\Tests\\VitakorTestCase\\VatakorTestCaseAPI\\VatakorTestCaseAPI\\VatakorTestCaseAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VitakorTestCase\\VatakorTestCaseAPI\\VatakorTestCaseAPI\\VatakorTestCaseAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Данила\\Desktop\\Tests\\VitakorTestCase\\VatakorTestCaseAPI\\VatakorTestCaseAPI\\VatakorTestCaseAPI.csproj",
         "projectName": "VatakorTestCaseAPI",
-        "projectPath": "C:\\VitakorTestCase\\VatakorTestCaseAPI\\VatakorTestCaseAPI\\VatakorTestCaseAPI.csproj",
+        "projectPath": "C:\\Users\\Данила\\Desktop\\Tests\\VitakorTestCase\\VatakorTestCaseAPI\\VatakorTestCaseAPI\\VatakorTestCaseAPI.csproj",
         "packagesPath": "C:\\Users\\Данила\\.nuget\\packages\\",
-        "outputPath": "C:\\VitakorTestCase\\VatakorTestCaseAPI\\VatakorTestCaseAPI\\obj\\",
+        "outputPath": "C:\\Users\\Данила\\Desktop\\Tests\\VitakorTestCase\\VatakorTestCaseAPI\\VatakorTestCaseAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Данила\\AppData\\Roaming\\NuGet\\NuGet.Config",

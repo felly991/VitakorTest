@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VatakorTestCaseAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08580904574d50852facbee093c38ac3743121dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58252f4dea200173759629a115fef8fda79a0ba9")]
 [assembly: System.Reflection.AssemblyProductAttribute("VatakorTestCaseAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VatakorTestCaseAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
